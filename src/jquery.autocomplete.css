@@ -1,0 +1,48 @@
+/*  Project: autocomplete (CSS)
+ *  Description: A clone of an autocomplete searching implementation (Associated CSS)
+ *  Author: Dan Yu
+ *  License: MIT
+ */
+
+@font-face {
+  font-family: Avenir;
+  src: url(./public/avenir-ultralight.otf);
+}
+
+#autocomplete {
+  font-family: 'Avenir';
+  font-size: 18px;
+  background-color: #1A273B;
+  color: #FFF;
+  border-radius: 5%;
+  min-height: 300px;
+  padding: 20px 5%;
+}
+
+#autocomplete span {
+  margin-left: 15px;
+}
+
+#search-title {
+  width: 25%;
+}
+
+#search-box {
+  width: 65%;
+  background-color: #3B485B;
+}
+
+#search-results {
+  margin-top: 10px;
+  margin-left: 25%;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+#search-results li {
+  margin-left: 0px;
+  margin-top: 10px;
+  width: 86%;
+  text-align: center;
+  background-color: #DE4F4F;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "autocomplete",
+  "version": "0.0.1",
+  "description": "A clone of an autocomplete searching implementation",
+  "keywords": [
+    "jquery-plugin",
+    "autocomplete",
+    "plugins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danXyu/autocomplete_clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danXyu/autocomplete_clone/issues"
+  },
+  "author": {
+    "name": "Dan Yu",
+    "email": "dxyu@stanford.edu",
+    "url": "https://github.com/danxyu"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}

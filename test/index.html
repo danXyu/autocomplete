@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>jQuery Autocomplete</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../src/jquery.autocomplete.css">
+  </head>
+  <body>
+    <div id="test" style="position:relative; width:500px; margin:0 auto; margin-top: 20px"></div>
+
+    <!-- Javscript Files -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/underscore/underscore-min.js"></script>
+    <script src="../src/jquery.autocomplete.js"></script>
+
+    <!-- Javscript Testing Unit -->
+    <script>
+      $(function() {
+        $("#test").autocomplete({
+          // Testing to ensure DIV expands correctly
+          searchArray: ['apple', 'orange', 'banana', 'applea', 'applaaae', 'applasfase', 'apple', 'apple', 'apple', 'apple', 'apple', 'apple', 'lalala']
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "jquery-autocomplete",
+  "license": "MIT",
+  "authors": [
+    "Dan Yu <dxyu@stanford.edu>"
+  ],
+  "description": "A clone of an autocomplete searching implementation",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "boilerplate",
+    "jquery-plugin",
+    "jquery-boilerplate"
+  ],
+  "main": "src/jquery.autocomplete.js",
+  "dependencies": {
+    "jquery": "*",
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.6"
+  },
+  "ignore": [
+    "npm-debug.log",
+    "bower_components",
+    "node_modules"
+  ]
+}
