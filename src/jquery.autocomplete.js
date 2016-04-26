@@ -102,6 +102,7 @@
 	});
 
 	// Ensure that the plugin is only loaded once by the browser.
+	// This was inspired by http://stefangabos.ro/jquery/jquery-plugin-boilerplate-revisited/
 	$.fn[pluginName] = function(options) {
 		return this.each(function() {
 			if (!$.data(this, "plugin_" + pluginName)) {
